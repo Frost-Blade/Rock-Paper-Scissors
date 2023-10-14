@@ -6,6 +6,17 @@ namespace RockPaperScissors
     {
         public static void Main(string[] args)
         {
+
+            /*
+             * user will enter his choice between rock paper and scissors
+             * a random number between 0-2 will be generated
+             * set each number for each choice example: (rock = 0, paper = 1, scissors = 2);
+             * 
+             * rock beats scissors
+             * scissors beats paper
+             * paper beats rock
+             */
+
             Random random = new Random(); //generate a new Random object called random 
             String opponentChoice = ""; //declare opponentChoice and initialize it to be an Empty String
             bool playAgain = true; //variable playAgain will be used when asking the user if they want to play again
