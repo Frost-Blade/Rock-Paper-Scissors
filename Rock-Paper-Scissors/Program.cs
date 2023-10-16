@@ -106,6 +106,7 @@ namespace RockPaperScissors
                 Console.WriteLine("\nDo you want to play again? (Y/N)");
                 String play = Console.ReadLine();
                 play = play.ToUpper(); //set the play variable to ToUpper to prevent mismatch
+                Console.Clear();
                 if (play == "N") 
                 {
                     playAgain = false; //if the user doesn't want to play again, set the playAgain variable to false to exit the loop
